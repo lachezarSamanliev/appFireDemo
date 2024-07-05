@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+src/main/resources/asdf.json
+src/main/java/com/example/.DS_Store
+src/main/java/com/.DS_Store
+src/main/java/.DS_Store
+src/main/.DS_Store
+src/.DS_Store
+mvnw.cmd
+mvnw
+.mvn/wrapper/maven-wrapper.properties
+.DS_Store
