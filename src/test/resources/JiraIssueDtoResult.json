@@ -1,0 +1,34 @@
+[
+  {
+    "summary": "Story to be completed",
+    "key": "KAN-8",
+    "url": "https://binarybuff.atlassian.net/rest/api/3/issue/10073",
+    "issueType": "Story",
+    "priority": null,
+    "description": "AA BB",
+    "reporter": "Lachezar Samanliev",
+    "createdDate": "2024-07-04T10:19:06.427+0300",
+    "comments": {
+      "Lachezar Samanliev": [
+        "good completion of story",
+        "thank you, mr sir"
+      ]
+    }
+  },
+  {
+    "summary": "Need Bug Instance",
+    "key": "KAN-7",
+    "url": "https://binarybuff.atlassian.net/rest/api/3/issue/10028",
+    "issueType": "Bug",
+    "priority": null,
+    "description": "Bug Description ",
+    "reporter": "Lachezar Samanliev",
+    "createdDate": "2024-07-03T15:56:07.716+0300",
+    "comments": {
+      "Lachezar Samanliev": [
+        "great bug",
+        "I agree!"
+      ]
+    }
+  }
+]
