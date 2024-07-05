@@ -11,7 +11,7 @@ public class JqlService {
     public static final String ISSUETYPE_EQUALS = "issuetype = ";
     public static final String PROJECT_EQUALS = "project = '";
 
-    // I see that a possibility is to use a more efficint query
+    // I see that a possibility is to use a more efficient query
     // "issueType IN (Bug,Story)
     // I was having issues running it and decided to use OR statements
     public String buildJQLQueryForIssueTypes(List<String> issueTypes, String projectKey) {
@@ -30,6 +30,7 @@ public class JqlService {
 
         for (int i = 0; i < issueTypes.size(); i++) {
             jqlQuery.append(ISSUETYPE_EQUALS).append(issueTypes.get(i));
+            // if there is another issueType in list, add OR statement
             if (i < issueTypes.size() - 1) {
                 jqlQuery.append(" OR ");
             }

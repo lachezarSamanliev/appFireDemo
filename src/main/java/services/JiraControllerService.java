@@ -23,6 +23,7 @@ public class JiraControllerService {
     public static final String REST_API_2_SEARCH = "/rest/api/2/search?";
     public static final String REST_API_3_ISSUE = "/rest/api/3/issue/";
     public static final String REST_API_3_PROJECT_SEARCH = "/rest/api/3/project/search";
+
     @Value("${jira.email}")
     private String jiraEmail;
 
